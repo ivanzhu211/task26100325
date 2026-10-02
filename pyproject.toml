@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "share-points"
+version = "0.1.0"
+description = "员工分享积分与排行榜库（SQLite 本地持久化，无接口层）"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["share_points"]
